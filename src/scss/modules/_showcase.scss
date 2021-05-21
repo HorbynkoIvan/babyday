@@ -19,8 +19,7 @@
   }
 
   .showcase_bottom{
-    background: linear-gradient(180deg, #FFF4D5 0%, #FFE297 100%);
-    //transform: matrix(1, 0, 0, -1, 0, 0);
+    background: linear-gradient(0deg, #FFF4D5 0%, #FFE297 100%);
     .bottom_wrapper{
       position: relative;
       max-width: 931px;
@@ -47,7 +46,7 @@
 
 @media only screen and (max-width: 767px) {
   .showcase {
-    
+
     .showcase_top {
       .top_wrapper {
         max-width: 100%;
