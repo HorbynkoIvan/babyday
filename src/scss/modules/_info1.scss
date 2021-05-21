@@ -2,6 +2,7 @@
   margin-bottom: 50px;
 
   .info_wrapper {
+    display: block;
     position: relative;
     background: url("/assets/img/info/info1_bg_desk.png") center top no-repeat;
     background-size: cover;
@@ -11,6 +12,7 @@
     box-sizing: border-box;
     max-width: 1300px;
     margin: 0 auto;
+    cursor: pointer;
 
     .right {
       max-width: 450px;
