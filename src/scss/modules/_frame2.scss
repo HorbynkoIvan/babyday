@@ -40,11 +40,22 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  .frame2 {
+    .frame_wrapper {
+      max-width: 720px;
+    }
 
+    .frame_title {
+      img{
+        max-width: 100%;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 767px) {
   .frame2 {
+    padding-top: 50px;
     .frame_wrapper {
       flex-direction: column;
      // padding: 51px 0;
@@ -64,6 +75,10 @@
       .frame_img_mob {
         display: block;
         text-align: center;
+
+        img {
+          max-width: 100%;
+        }
 
         span {
           margin-top: 12px;

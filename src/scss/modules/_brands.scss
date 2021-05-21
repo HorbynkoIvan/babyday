@@ -1,5 +1,5 @@
 .brands {
-  padding-top: 76px;
+  padding-top: 50px;
   padding-bottom: 46px;
 
   .brands_wrapper {
@@ -84,6 +84,7 @@
     padding-top: 54px;
 
     .brands_wrapper {
+      max-width: 720px;
       .brands_top {
         .brands_title {
           font-size: 30px;

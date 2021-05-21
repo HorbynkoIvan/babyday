@@ -1,5 +1,6 @@
 .showcase {
   padding-bottom: 50px;
+
   .showcase_top {
     background: #FFE297;
     position: relative;
@@ -12,19 +13,21 @@
       background-size: cover;
       height: 620px;
 
-      .showcase_btn{
+      .showcase_btn {
         display: none;
       }
     }
   }
 
-  .showcase_bottom{
+  .showcase_bottom {
     background: linear-gradient(0deg, #FFF4D5 0%, #FFE297 100%);
-    .bottom_wrapper{
+
+    .bottom_wrapper {
       position: relative;
       max-width: 931px;
       margin: 0 auto;
-      .text_block{
+
+      .text_block {
         display: flex;
 
         font-weight: 500;
@@ -32,11 +35,13 @@
         line-height: 24px;
         color: #612A12;
         padding-top: 43px;
-        .left, .right{
+
+        .left, .right {
           flex-grow: 1;
           flex-basis: 100%;
         }
-        .left{
+
+        .left {
           margin-right: 29px;
         }
       }
@@ -44,8 +49,27 @@
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .showcase {
+
+    .showcase_top {
+      .top_wrapper {
+        max-width: 720px;
+        height: 400px;
+      }
+    }
+
+    .showcase_bottom {
+      .bottom_wrapper {
+        max-width: 720px;
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .showcase {
+    padding: 0;
 
     .showcase_top {
       .top_wrapper {
@@ -55,7 +79,8 @@
         background-size: cover;
         height: 700px;
         position: relative;
-        .showcase_btn{
+
+        .showcase_btn {
           position: absolute;
           display: flex;
           margin: 0 auto;
@@ -67,20 +92,22 @@
       }
     }
 
-    .showcase_bottom{
-      .bottom_wrapper{
-        .text_block{
+    .showcase_bottom {
+      .bottom_wrapper {
+        .text_block {
           font-size: 14px;
           line-height: 20px;
           padding-top: 36px;
           flex-direction: column;
           max-width: 296px;
           margin: 0 auto;
-          .left, .right{
+
+          .left, .right {
             flex-grow: 1;
             flex-basis: 100%;
           }
-          .left{
+
+          .left {
             margin-right: 0;
             margin-bottom: 23px;
           }

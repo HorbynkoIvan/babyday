@@ -12,16 +12,18 @@
       top: 100%;
 
       //animation
-      -webkit-animation: mover 3s infinite  alternate;
-      animation: mover 3s infinite  alternate;
+      -webkit-animation: mover 3s infinite alternate;
+      animation: mover 3s infinite alternate;
 
       @keyframes mover {
-        0% { transform: translateY(0); }
-        100% { transform: translateY(-30px); }
+        0% {
+          transform: translateY(0);
+        }
+        100% {
+          transform: translateY(-30px);
+        }
       }
     }
-
-
 
     .frame_title {
       flex-grow: 1;
@@ -57,7 +59,19 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  .frame1 {
+    .frame_wrapper {
+      .frame_kite {
+        display: none;
+      }
 
+      .frame_title {
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -81,6 +95,10 @@
       .frame_img_mob {
         display: block;
         text-align: center;
+
+        img {
+          max-width: 100%;
+        }
 
         span {
           margin-top: 12px;
