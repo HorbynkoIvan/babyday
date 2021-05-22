@@ -75,6 +75,21 @@
       max-width: 1024px;
       height: 398px;
       padding: 85px 0 0;
+
+      .right {
+        margin-right: 5%;
+
+        .info_title {
+          font-size: 22px;
+        }
+
+        .text {
+          &:last-of-type {
+            margin-bottom: 20px;
+          }
+        }
+
+      }
     }
   }
 }

@@ -66,13 +66,13 @@
       height: 55px;
 
       font-weight: 600;
-      font-size: 18px;
+      font-size: 16px;
       line-height: 110%;
 
       text-align: center;
 
       color: #91AE34;
-      padding-top: 5px;
+      padding-top: 7px;
     }
   }
 
@@ -89,6 +89,15 @@
       height: 393px;
       padding: 75px 0 0;
       .left{
+        margin-left: 5%;
+        .info_title {
+          font-size: 22px;
+        }
+        .text {
+          &:last-of-type {
+            margin-bottom: 20px;
+          }
+        }
         .info_sponsor{
           span{
             margin-bottom: 10px;
