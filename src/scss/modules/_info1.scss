@@ -19,8 +19,8 @@
       float: right;
       margin-right: 10%;
 
-      .info_sponsor{
-        span{
+      .info_sponsor {
+        span {
           display: inline-block;
           margin-top: 9px;
           margin-bottom: 27px;
@@ -84,9 +84,10 @@
       max-width: 1024px;
       height: 393px;
       padding: 85px 0 0;
-      .right{
-        .info_sponsor{
-          span{
+
+      .right {
+        .info_sponsor {
+          span {
             margin-bottom: 10px;
           }
         }
@@ -102,10 +103,20 @@
       max-width: 930px;
       height: 357px;
       padding: 60px 0 0;
-      .right{
+
+      .right {
         max-width: 400px;
         margin-right: 5%;
-      };
+
+        .info_title {
+          font-size: 22px;
+        }
+
+        .text {
+          font-size: 14px;
+        }
+      }
+    ;
     }
   }
 }
@@ -113,6 +124,7 @@
 @media only screen and (max-width: 767px) {
   .info1 {
     margin: 0;
+
     .info_wrapper {
       background: url("/assets/img/info/info1_bg_mob.png") center top no-repeat;
       background-size: cover;
@@ -125,11 +137,13 @@
         float: none;
         margin-right: auto;
         margin: 0 auto;
-        .info_sponsor{
-          span{
+
+        .info_sponsor {
+          span {
             margin-bottom: 23px;
           }
         }
+
         .info_title {
           font-size: 20px;
           line-height: 24px;

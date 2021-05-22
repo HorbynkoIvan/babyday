@@ -15,6 +15,9 @@
       -webkit-animation: mover 3s infinite alternate;
       animation: mover 3s infinite alternate;
 
+      img{
+        max-width: inherit !important;
+      }
       @keyframes mover {
         0% {
           transform: translateY(0);

@@ -19,7 +19,7 @@
       margin-right: 10%;
 
       .info_title {
-        max-width: 310px;
+        //max-width: 310px;
         font-weight: bold;
         font-size: 30px;
         line-height: 120%;
@@ -89,6 +89,14 @@
       .right{
         max-width: 400px;
         margin-right: 5%;
+
+        .info_title {
+          font-size: 22px;
+        }
+
+        .text {
+          font-size: 14px;
+        }
       };
     }
   }
