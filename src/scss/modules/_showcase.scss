@@ -18,7 +18,12 @@
       }
 
       .showcase_btn {
-        display: none;
+        position: absolute;
+        display: flex;
+        margin: 0 auto;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
       }
     }
   }
