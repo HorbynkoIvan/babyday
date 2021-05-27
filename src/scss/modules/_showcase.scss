@@ -1,5 +1,5 @@
 .showcase {
-  padding-bottom: 50px;
+  //padding-bottom: 50px;
 
   .showcase_top {
     background: #FFE297;
@@ -12,17 +12,19 @@
       background: url("/assets/img/common/showcase_desk_ua.png") center top no-repeat;
       background-size: cover;
       height: 620px;
+      position: relative;
 
       &.ru {
         background: url("/assets/img/common/showcase_desk_ru.png") center top no-repeat;
+        background-size: cover;
       }
 
       .showcase_btn {
         position: absolute;
         display: flex;
         margin: 0 auto;
-        bottom: 20px;
-        left: 50%;
+        bottom: 90px;
+        left: 25%;
         transform: translateX(-50%);
       }
     }
@@ -65,6 +67,9 @@
       .top_wrapper {
         max-width: 720px;
         height: 400px;
+        .showcase_btn {
+          bottom: 40px;
+        }
       }
     }
 
@@ -88,17 +93,18 @@
         background-size: cover;
         height: 700px;
         position: relative;
+
         &.ru {
           background: url("/assets/img/common/showcase_mob_ru.png") center top no-repeat;
         }
+
         .showcase_btn {
           position: absolute;
           display: flex;
           margin: 0 auto;
-          bottom: 20px;
+          bottom: 40px;
           left: 50%;
           transform: translateX(-50%);
-
         }
       }
     }

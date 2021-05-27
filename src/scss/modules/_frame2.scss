@@ -4,6 +4,29 @@
     margin: 0 auto 50px;
     display: flex;
     align-items: center;
+    position: relative;
+
+    .frame_kite {
+      position: absolute;
+      right: calc(100% - 50px);
+      top: 100%;
+
+      //animation
+      -webkit-animation: mover 3s infinite alternate;
+      animation: mover 3s infinite alternate;
+
+      img{
+        max-width: inherit !important;
+      }
+      @keyframes mover {
+        0% {
+          transform: translateY(0);
+        }
+        100% {
+          transform: translateY(-30px);
+        }
+      }
+    }
 
     .frame_title {
       flex-grow: 1;
@@ -43,6 +66,9 @@
   .frame2 {
     .frame_wrapper {
       max-width: 720px;
+      .frame_kite {
+        display: none;
+      }
     }
 
     .frame_title {
@@ -77,7 +103,7 @@
         text-align: center;
 
         img {
-          //max-width: 100%;
+          max-width: inherit !important;
         }
 
         span {

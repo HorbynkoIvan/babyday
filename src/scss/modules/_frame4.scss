@@ -75,7 +75,7 @@
         display: block;
         text-align: center;
         img {
-          //max-width: 100%;
+          max-width: inherit !important;
         }
         span {
           margin-top: 12px;
